@@ -25,7 +25,6 @@ if (divElementHeroContent) {
 // Рендер карточек в секции "Недавно обновлено"
 const ulElementRecently = document.querySelector(".recently-list");
 if (ulElementRecently) {
-  const movieCard = new MovieCard();
   movieCard.recentlyUpdated(ulElementRecently);
 }
 
@@ -104,7 +103,6 @@ if (searchInput) {
   // При клике на кнопку поиска открываем модалку с результатами
   btnSearch.addEventListener("click", () => {
     const nameFilm = searchInput.value;
-    console.log(nameFilm);
     modalContainer.style.display = "block";
     modal.searchFilm(modalContainer, nameFilm);
   });
