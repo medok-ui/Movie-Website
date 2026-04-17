@@ -107,6 +107,5 @@ if (searchInput) {
     console.log(nameFilm);
     modalContainer.style.display = "block";
     modal.searchFilm(modalContainer, nameFilm);
-    nameFilm = "";
   });
 }
