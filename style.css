@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@import url("./src/css/base.css");
+@import url("./src/css/components/header.css");
+@import url("./src/css/components/hero.css");
+@import url("./src/css/components/recently-updated.css");
+@import url("./src/css/components/trending.css");
+@import url("./src/css/components/new-release.css");
+@import url("./src/css/components/recommended.css");
+@import url("./src/css/components/modal.css");
+@import url("./src/css/layout.css");
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  background: #000;
+  color: #fff;
+}

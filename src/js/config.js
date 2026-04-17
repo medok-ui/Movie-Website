@@ -1,0 +1,3 @@
+export const CONFIG = {
+  API_KEY: "9VM0ECG-M8G4HJW-M1M9J8A-SZT73FY",
+};

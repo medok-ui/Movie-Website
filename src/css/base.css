@@ -1,0 +1,87 @@
+/* 1. Box sizing — теперь паддинги не раздувают блоки */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Убираем стандартные отступы у всего */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* 3. Улучшаем плавность прокрутки */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 4. Настройки для body: min-height, правильный рендеринг текста */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5; /* Для читабельности */
+  -webkit-font-smoothing: antialiased; /* Сглаживание на Mac/iOS */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 5. Убираем точки у списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 6. Сбрасываем ссылки */
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block; /* Удобнее для трансформаций */
+}
+
+/* 7. Делаем картинки послушными */
+img,
+picture,
+svg,
+video,
+canvas {
+  max-width: 100%;
+  display: block; /* Убирает лишний зазор снизу */
+  height: auto;
+}
+
+/* 8. Наследуем шрифты для элементов форм */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  background: none;
+  color: inherit;
+  outline: none;
+}
+
+/* 9. Убираем синее выделение при клике на мобилках */
+button,
+a {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 10. Делаем таблицы вменяемыми */
+table {
+  border-collapse: collapse;
+}
+
+/* 11. Для доступности: скрываем элементы, но оставляем для скринридеров */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

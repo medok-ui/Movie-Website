@@ -1,0 +1,358 @@
+.modal {
+  position: fixed;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: #000;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  z-index: 1050;
+  opacity: 1;
+  padding: 20px;
+
+  -webkit-transition: opacity 200ms ease-in;
+  -moz-transition: opacity 200ms ease-in;
+
+  max-width: 1200px;
+  max-height: 576px;
+
+  transition: opacity 200ms ease-in;
+}
+
+.modal-cover {
+  border-radius: 10px;
+  max-width: 352px;
+  max-height: 526px;
+}
+
+.modal-head {
+  width: 780px;
+  max-width: 765px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 64px;
+}
+
+.modal-name {
+  font-weight: 600;
+  font-size: 34px;
+  color: #fff;
+}
+
+.modal-close {
+  padding: 3px 8px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  transition: 0.2s ease-in;
+
+  &:hover {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    transform: scale(0.99);
+  }
+}
+
+.modal-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-film-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-bottom: 24px;
+}
+
+.modal-film-tags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.film-tag {
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+}
+
+.modal-film-data {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.film-year,
+.film-time,
+.film-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.modal-film-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+
+  margin-bottom: 44px;
+}
+
+.film-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.film-info-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .modal {
+    max-width: 90%;
+    max-height: 85vh;
+    padding: 24px;
+    overflow-y: auto;
+  }
+
+  .modal-container {
+    gap: 24px;
+  }
+
+  .modal-cover {
+    max-width: 300px;
+    max-height: 450px;
+  }
+
+  .modal-head {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .modal-name {
+    font-size: 28px;
+  }
+
+  .film-tag {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .film-year,
+  .film-time,
+  .film-rating {
+    font-size: 14px;
+  }
+
+  .modal-film-description {
+    font-size: 15px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal {
+    max-width: 95%;
+    max-height: 90vh;
+    padding: 20px;
+  }
+
+  .modal-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .modal-cover {
+    max-width: 100%;
+    max-height: 360px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .modal-head {
+    margin-bottom: 24px;
+    align-items: flex-start;
+  }
+
+  .modal-name {
+    font-size: 24px;
+    max-width: 85%;
+  }
+
+  .modal-close {
+    padding: 6px 12px;
+    font-size: 18px;
+  }
+
+  .modal-film-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .modal-film-tags {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .film-tag {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .modal-film-data {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .film-year,
+  .film-time,
+  .film-rating {
+    gap: 6px;
+    font-size: 14px;
+
+    img {
+      width: 14px;
+      height: 14px;
+    }
+  }
+
+  .modal-film-description {
+    font-size: 14px;
+    margin-bottom: 24px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal {
+    max-width: 100%;
+    max-height: 100vh;
+    height: 100vh;
+    border-radius: 0;
+    border: none;
+    padding: 16px;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
+  .modal-container {
+    gap: 16px;
+  }
+
+  .modal-cover {
+    max-height: 280px;
+    border-radius: 8px;
+  }
+
+  .modal-head {
+    margin-bottom: 16px;
+  }
+
+  .modal-name {
+    font-size: 20px;
+    max-width: 80%;
+  }
+
+  .modal-close {
+    padding: 4px 10px;
+    font-size: 16px;
+  }
+
+  .modal-film-info {
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .film-tag {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .modal-film-data {
+    gap: 10px;
+  }
+
+  .film-year,
+  .film-time,
+  .film-rating {
+    gap: 4px;
+    font-size: 13px;
+
+    img {
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+  .modal-film-description {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .modal {
+    padding: 12px;
+  }
+
+  .modal-cover {
+    max-height: 220px;
+  }
+
+  .modal-name {
+    font-size: 18px;
+  }
+
+  .modal-close {
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+
+  .film-tag {
+    font-size: 11px;
+    padding: 4px 6px;
+  }
+
+  .film-year,
+  .film-time,
+  .film-rating {
+    font-size: 12px;
+
+    img {
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  .modal-film-description {
+    font-size: 12px;
+  }
+}

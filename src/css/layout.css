@@ -1,0 +1,58 @@
+/* Сетка, контейнеры, навигация */
+
+.container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+}
+
+.header-container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 24px !important;
+}
+
+.modal-container {
+  display: flex;
+  gap: 32px;
+}
+
+@media (max-width: 1200px) {
+  .container,
+  .header-container {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .modal-container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 0 16px !important;
+  }
+
+  .modal-container {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px !important;
+  }
+
+  .header-container {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 15px !important;
+  }
+}

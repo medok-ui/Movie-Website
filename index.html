@@ -1,0 +1,102 @@
+<!-- Главная страница -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./assets/clapperboard.ico" />
+    <script type="module" src="./src/js/app.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <div class="navigation">
+            <nav class="nav">
+              <ul class="nav-list">
+                <!-- Навигация будет динамически сгенерирована через JavaScript -->
+              </ul>
+            </nav>
+          </div>
+          <div class="search">
+            <input
+              class="search-input"
+              type="text"
+              placeholder="Поиск для фильмов..."
+            />
+            <button class="search-button">
+              <img src="./assets/svg/search.svg" alt="search-btn" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-content">
+            <!-- Контент будет динамически сгенерирован через JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <section class="recently-updated-section">
+        <div class="container">
+          <h2 class="recently-title">Недавно обновлено</h2>
+          <ul class="recently-list">
+            <!-- Список будет динамически сгенерирован через JavaScript -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="trending-section">
+        <div class="container">
+          <div class="trending-head">
+            <h2 class="trending-title">В тренде</h2>
+            <button class="trending-btn">Показать всё →</button>
+          </div>
+          <div class="trending-content">
+            <ul class="trending-list">
+              <!-- Контент будет динамически сгенерирован через JavaScript -->
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="new-release-section">
+        <div class="container">
+          <div class="release-head">
+            <h2 class="release-title">Новые релизы</h2>
+            <button class="release-btn">Показать всё →</button>
+          </div>
+          <div class="release-content">
+            <ul class="release-list">
+              <!-- Контент будет динамически сгенерирован через JavaScript -->
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="recommended-section">
+        <div class="container">
+          <div class="recommended-head">
+            <div class="recommended-info">
+              <h2 class="recommended-title">Recommended</h2>
+              <button class="tag active">Movies</button>
+              <button class="tag">Series</button>
+              <button class="tag">Animation</button>
+            </div>
+          </div>
+          <ul class="recommended-list">
+            <!-- Контент будет динамически сгенерирован через JavaScript -->
+          </ul>
+        </div>
+      </section>
+    </main>
+    <div style="display: none" class="modal"></div>
+  </body>
+</html>

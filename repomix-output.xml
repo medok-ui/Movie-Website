@@ -1,0 +1,1695 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+assets/images/bg.jpg
+assets/svg/calendar.svg
+assets/svg/play.svg
+assets/svg/search.svg
+assets/svg/star.svg
+assets/svg/time.svg
+index.html
+README.md
+src/css/base.css
+src/css/components/header.css
+src/css/components/hero.css
+src/css/components/modal.css
+src/css/components/new-release.css
+src/css/components/recently-updated.css
+src/css/components/recommended.css
+src/css/components/trending.css
+src/css/layout.css
+src/js/api.js
+src/js/app.js
+src/js/components/Header.js
+src/js/components/Hero.js
+src/js/components/Modal.js
+src/js/components/MovieCard.js
+src/js/config.js
+src/utils/constants.js
+src/utils/helpers.js
+style.css
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="assets/svg/calendar.svg">
+<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.6445 1.43601H13.728C13.6696 1.43601 13.6136 1.45921 13.5723 1.50051C13.531 1.54182 13.5078 1.59783 13.5078 1.65625C13.5078 1.69378 13.5196 1.72735 13.5359 1.75797V3.43595C13.536 3.49744 13.5239 3.55835 13.5004 3.61517C13.4769 3.672 13.4424 3.72363 13.3989 3.76711C13.3555 3.8106 13.3038 3.84508 13.247 3.86858C13.1902 3.89208 13.1293 3.90415 13.0678 3.90408H12.1601C12.1031 3.90408 12.0466 3.89284 11.9938 3.871C11.9411 3.84916 11.8932 3.81716 11.8529 3.7768C11.8125 3.73645 11.7805 3.68855 11.7587 3.63582C11.7368 3.5831 11.7256 3.52659 11.7256 3.46953V1.78513C11.7547 1.74839 11.771 1.70312 11.772 1.65625C11.7721 1.62731 11.7664 1.59864 11.7554 1.57189C11.7443 1.54514 11.7281 1.52083 11.7076 1.50037C11.6872 1.4799 11.6629 1.46368 11.6361 1.45264C11.6094 1.44159 11.5807 1.43594 11.5518 1.43601H5.67292C5.61451 1.43601 5.55849 1.45921 5.51719 1.50051C5.47588 1.54182 5.45268 1.59783 5.45268 1.65625C5.45268 1.69032 5.46206 1.72143 5.47589 1.75056V3.4478C5.47589 3.50778 5.46408 3.56718 5.44112 3.6226C5.41817 3.67802 5.38452 3.72837 5.3421 3.77079C5.29969 3.8132 5.24933 3.84685 5.19391 3.86981C5.1385 3.89276 5.0791 3.90458 5.01911 3.90458H4.21321C4.09089 3.90458 3.97357 3.85598 3.88708 3.76949C3.80058 3.68299 3.75199 3.56568 3.75199 3.44335V1.76291C3.7716 1.73073 3.78233 1.69392 3.7831 1.65625C3.78316 1.62731 3.77751 1.59864 3.76647 1.57189C3.75542 1.54514 3.7392 1.52083 3.71874 1.50037C3.69827 1.4799 3.67397 1.46368 3.64722 1.45264C3.62047 1.44159 3.5918 1.43594 3.56286 1.43601H0.489862C0.360068 1.43614 0.23562 1.48772 0.143796 1.57945C0.0519713 1.67118 0.000261353 1.79558 0 1.92537V16.5096C0 16.7802 0.219747 17 0.489862 17H16.6445C16.7743 16.9997 16.8988 16.948 16.9905 16.856C17.0823 16.7641 17.1338 16.6395 17.1338 16.5096V1.92537C17.1336 1.79567 17.0819 1.67134 16.9902 1.57963C16.8985 1.48791 16.7742 1.43627 16.6445 1.43601ZM16.6445 16.5595H0.489862C0.483336 16.5595 0.476874 16.5582 0.47085 16.5557C0.464826 16.5532 0.459361 16.5495 0.454769 16.5449C0.450177 16.5402 0.44655 16.5347 0.444097 16.5287C0.441645 16.5226 0.440416 16.5162 0.440481 16.5096V5.51095H16.6933V16.5091C16.6935 16.5157 16.6923 16.5222 16.6899 16.5282C16.6875 16.5343 16.684 16.5398 16.6794 16.5445C16.6749 16.5492 16.6694 16.5529 16.6634 16.5555C16.6574 16.5581 16.651 16.5595 16.6445 16.5595Z" fill="white"/>
+<path d="M4.67344 3.40237C4.79492 3.40237 4.89368 3.30361 4.89368 3.18213V0.220241C4.89368 0.191318 4.88799 0.162679 4.87692 0.135958C4.86585 0.109237 4.84963 0.0849582 4.82918 0.064507C4.80872 0.0440558 4.78444 0.027833 4.75772 0.0167649C4.731 0.00569675 4.70236 0 4.67344 0C4.64452 0 4.61588 0.00569675 4.58916 0.0167649C4.56244 0.027833 4.53816 0.0440558 4.51771 0.064507C4.49726 0.0849582 4.48103 0.109237 4.46997 0.135958C4.4589 0.162679 4.4532 0.191318 4.4532 0.220241V3.18262C4.4532 3.3041 4.55196 3.40237 4.67344 3.40237ZM12.6505 3.40237C12.772 3.40237 12.8707 3.30361 12.8707 3.18213V0.220241C12.8707 0.191318 12.865 0.162679 12.854 0.135958C12.8429 0.109237 12.8267 0.0849582 12.8062 0.064507C12.7858 0.0440558 12.7615 0.027833 12.7348 0.0167649C12.7081 0.00569675 12.6794 0 12.6505 0C12.6216 0 12.5929 0.00569675 12.5662 0.0167649C12.5395 0.027833 12.5152 0.0440558 12.4948 0.064507C12.4743 0.0849582 12.4581 0.109237 12.447 0.135958C12.4359 0.162679 12.4303 0.191318 12.4303 0.220241V3.18262C12.4303 3.3041 12.5285 3.40237 12.6505 3.40237Z" fill="white"/>
+<path d="M3.5352 8.84271C4.20556 8.84271 4.74899 8.29927 4.74899 7.62891C4.74899 6.95856 4.20556 6.41512 3.5352 6.41512C2.86484 6.41512 2.32141 6.95856 2.32141 7.62891C2.32141 8.29927 2.86484 8.84271 3.5352 8.84271Z" fill="white"/>
+<path d="M7.0235 8.84271C7.69386 8.84271 8.23729 8.29927 8.23729 7.62891C8.23729 6.95856 7.69386 6.41512 7.0235 6.41512C6.35314 6.41512 5.80971 6.95856 5.80971 7.62891C5.80971 8.29927 6.35314 8.84271 7.0235 8.84271Z" fill="white"/>
+<path d="M10.5113 8.84271C11.1817 8.84271 11.7251 8.29927 11.7251 7.62891C11.7251 6.95856 11.1817 6.41512 10.5113 6.41512C9.84095 6.41512 9.29752 6.95856 9.29752 7.62891C9.29752 8.29927 9.84095 8.84271 10.5113 8.84271Z" fill="white"/>
+<path d="M3.5352 12.2229C4.20556 12.2229 4.74899 11.6794 4.74899 11.0091C4.74899 10.3387 4.20556 9.79527 3.5352 9.79527C2.86484 9.79527 2.32141 10.3387 2.32141 11.0091C2.32141 11.6794 2.86484 12.2229 3.5352 12.2229Z" fill="white"/>
+<path d="M7.0235 12.2229C7.69386 12.2229 8.23729 11.6794 8.23729 11.0091C8.23729 10.3387 7.69386 9.79527 7.0235 9.79527C6.35314 9.79527 5.80971 10.3387 5.80971 11.0091C5.80971 11.6794 6.35314 12.2229 7.0235 12.2229Z" fill="white"/>
+<path d="M10.5113 12.2229C11.1817 12.2229 11.7251 11.6794 11.7251 11.0091C11.7251 10.3387 11.1817 9.79527 10.5113 9.79527C9.84095 9.79527 9.29752 10.3387 9.29752 11.0091C9.29752 11.6794 9.84095 12.2229 10.5113 12.2229Z" fill="white"/>
+<path d="M3.5352 15.603C4.20556 15.603 4.74899 15.0596 4.74899 14.3892C4.74899 13.7188 4.20556 13.1754 3.5352 13.1754C2.86484 13.1754 2.32141 13.7188 2.32141 14.3892C2.32141 15.0596 2.86484 15.603 3.5352 15.603Z" fill="white"/>
+<path d="M7.0235 15.603C7.69386 15.603 8.23729 15.0596 8.23729 14.3892C8.23729 13.7188 7.69386 13.1754 7.0235 13.1754C6.35314 13.1754 5.80971 13.7188 5.80971 14.3892C5.80971 15.0596 6.35314 15.603 7.0235 15.603Z" fill="white"/>
+<path d="M10.5113 15.603C11.1817 15.603 11.7251 15.0596 11.7251 14.3892C11.7251 13.7188 11.1817 13.1754 10.5113 13.1754C9.84095 13.1754 9.29752 13.7188 9.29752 14.3892C9.29752 15.0596 9.84095 15.603 10.5113 15.603Z" fill="white"/>
+<path d="M13.9176 8.84271C14.588 8.84271 15.1314 8.29927 15.1314 7.62891C15.1314 6.95856 14.588 6.41512 13.9176 6.41512C13.2473 6.41512 12.7038 6.95856 12.7038 7.62891C12.7038 8.29927 13.2473 8.84271 13.9176 8.84271Z" fill="white"/>
+<path d="M13.9176 12.2229C14.588 12.2229 15.1314 11.6794 15.1314 11.0091C15.1314 10.3387 14.588 9.79527 13.9176 9.79527C13.2473 9.79527 12.7038 10.3387 12.7038 11.0091C12.7038 11.6794 13.2473 12.2229 13.9176 12.2229Z" fill="white"/>
+<path d="M13.9176 15.603C14.588 15.603 15.1314 15.0596 15.1314 14.3892C15.1314 13.7188 14.588 13.1754 13.9176 13.1754C13.2473 13.1754 12.7038 13.7188 12.7038 14.3892C12.7038 15.0596 13.2473 15.603 13.9176 15.603Z" fill="white"/>
+</svg>
+</file>
+
+<file path="assets/svg/play.svg">
+<svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29.5 0C23.6655 0 17.9619 1.73014 13.1107 4.97164C8.25944 8.21315 4.47835 12.8204 2.24557 18.2108C0.0127819 23.6013 -0.571416 29.5327 0.566847 35.2552C1.70511 40.9776 4.51471 46.234 8.64036 50.3596C12.766 54.4853 18.0224 57.2949 23.7448 58.4332C29.4673 59.5714 35.3987 58.9872 40.7892 56.7544C46.1796 54.5216 50.7868 50.7406 54.0284 45.8893C57.2699 41.0381 59 35.3345 59 29.5C59 25.626 58.237 21.7899 56.7544 18.2108C55.2719 14.6317 53.099 11.3797 50.3596 8.64035C47.6203 5.90102 44.3683 3.72807 40.7892 2.24555C37.2101 0.76304 33.374 0 29.5 0ZM23.6 42.775V16.225L41.3 29.5L23.6 42.775Z" fill="white"/>
+</svg>
+</file>
+
+<file path="assets/svg/search.svg">
+<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19.7309 18.3109L16.0209 14.6309C17.461 12.8353 18.1584 10.5562 17.9697 8.2622C17.781 5.9682 16.7206 3.83368 15.0064 2.29754C13.2923 0.761407 11.0547 -0.0595894 8.75382 0.00337096C6.45294 0.0663314 4.26362 1.00846 2.63604 2.63604C1.00846 4.26362 0.0663314 6.45294 0.00337096 8.75382C-0.0595894 11.0547 0.761407 13.2923 2.29754 15.0064C3.83368 16.7206 5.9682 17.781 8.2622 17.9697C10.5562 18.1584 12.8353 17.461 14.6309 16.0209L18.3109 19.7009C18.4039 19.7946 18.5145 19.869 18.6363 19.9198C18.7582 19.9706 18.8889 19.9967 19.0209 19.9967C19.1529 19.9967 19.2836 19.9706 19.4055 19.9198C19.5273 19.869 19.6379 19.7946 19.7309 19.7009C19.9111 19.5144 20.0119 19.2652 20.0119 19.0059C20.0119 18.7466 19.9111 18.4974 19.7309 18.3109ZM9.0209 16.0209C7.63643 16.0209 6.28305 15.6104 5.13191 14.8412C3.98076 14.072 3.08356 12.9788 2.55374 11.6997C2.02393 10.4206 1.88531 9.01314 2.1554 7.65527C2.4255 6.2974 3.09219 5.05012 4.07115 4.07115C5.05012 3.09219 6.2974 2.4255 7.65527 2.1554C9.01314 1.88531 10.4206 2.02393 11.6997 2.55374C12.9788 3.08356 14.072 3.98076 14.8412 5.13191C15.6104 6.28305 16.0209 7.63643 16.0209 9.0209C16.0209 10.8774 15.2834 12.6579 13.9706 13.9706C12.6579 15.2834 10.8774 16.0209 9.0209 16.0209Z" fill="black"/>
+</svg>
+</file>
+
+<file path="assets/svg/star.svg">
+<svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.5 12.8589L13.753 16L12.359 10.08L17 6.09684L10.8885 5.57474L8.5 0L6.1115 5.57474L0 6.09684L4.6325 10.08L3.247 16L8.5 12.8589Z" fill="white"/>
+</svg>
+</file>
+
+<file path="assets/svg/time.svg">
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.64988 0C6.78248 0 6.90966 0.0526784 7.00343 0.146447C7.0972 0.240215 7.14988 0.367392 7.14988 0.5V2.672C7.14988 2.80461 7.0972 2.93179 7.00343 3.02555C6.90966 3.11932 6.78248 3.172 6.64988 3.172C6.51727 3.172 6.39009 3.11932 6.29632 3.02555C6.20255 2.93179 6.14988 2.80461 6.14988 2.672V1.022C4.88909 1.13411 3.70246 1.66634 2.78026 2.53334C1.85806 3.40035 1.25369 4.55191 1.06407 5.80339C0.874454 7.05487 1.11056 8.33377 1.73454 9.43504C2.35851 10.5363 3.33422 11.3962 4.5052 11.8767C5.67619 12.3573 6.97463 12.4308 8.19234 12.0853C9.41005 11.7398 10.4765 10.9955 11.2207 9.9716C11.9648 8.94771 12.3437 7.70359 12.2964 6.43871C12.2491 5.17383 11.7784 3.96147 10.9599 2.996C10.9153 2.94627 10.8811 2.88811 10.8593 2.82494C10.8375 2.76177 10.8287 2.69488 10.8332 2.62822C10.8377 2.56157 10.8555 2.49649 10.8856 2.43684C10.9157 2.37719 10.9575 2.32418 11.0084 2.28094C11.0593 2.2377 11.1184 2.2051 11.1822 2.18507C11.2459 2.16505 11.313 2.158 11.3795 2.16434C11.446 2.17069 11.5106 2.1903 11.5694 2.22201C11.6282 2.25373 11.68 2.29691 11.7219 2.349C12.7018 3.50454 13.2577 4.96006 13.2977 6.47463C13.3376 7.9892 12.8592 9.472 11.9416 10.6776C11.024 11.8832 9.72216 12.7393 8.25167 13.1042C6.78117 13.4691 5.23016 13.321 3.85534 12.6843C2.48053 12.0476 1.36436 10.9605 0.691586 9.60293C0.0188093 8.2454 -0.170236 6.69883 0.155745 5.21922C0.481725 3.73961 1.30318 2.41567 2.48415 1.46655C3.66512 0.517425 5.13478 2.88612e-05 6.64988 0ZM7.40988 7.23L9.92587 3.723C9.95937 3.67486 9.97488 3.61647 9.96968 3.55805C9.96448 3.49964 9.93891 3.4449 9.89744 3.40343C9.85597 3.36196 9.80124 3.33639 9.74282 3.33119C9.6844 3.32599 9.62602 3.3415 9.57787 3.375L6.06887 5.89C5.95597 5.97129 5.86209 6.07614 5.79372 6.1973C5.72535 6.31846 5.68413 6.45303 5.67291 6.5917C5.6617 6.73037 5.68076 6.86981 5.72877 7.00039C5.77678 7.13096 5.85259 7.24954 5.95097 7.34791C6.04934 7.44628 6.16792 7.5221 6.29849 7.57011C6.42906 7.61812 6.56851 7.63718 6.70718 7.62596C6.84584 7.61475 6.98042 7.57353 7.10158 7.50516C7.22274 7.43679 7.32759 7.3429 7.40887 7.23H7.40988Z" fill="white"/>
+</svg>
+</file>
+
+<file path="index.html">
+<!-- Главная страница -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./src/js/app.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <div class="navigation">
+            <nav class="nav">
+              <ul class="nav-list">
+                <!-- Навигация будет динамически сгенерирована через JavaScript -->
+              </ul>
+            </nav>
+          </div>
+          <div class="search">
+            <input
+              class="search-input"
+              type="text"
+              placeholder="Поиск для фильмов..."
+            />
+            <button class="search-button">
+              <img src="./assets/svg/search.svg" alt="search-btn" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <!-- Контент будет динамически сгенерирован через JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <section class="recently-updated-section">
+      <div class="container">
+        <h2 class="recently-title">Недавно обновлено</h2>
+        <ul class="recently-list">
+          <!-- Список будет динамически сгенерирован через JavaScript -->
+        </ul>
+      </div>
+    </section>
+
+    <section class="trending-section">
+      <div class="container">
+        <div class="trending-head">
+          <h2 class="trending-title">В тренде</h2>
+          <button class="trending-btn">Показать всё →</button>
+        </div>
+        <div class="trending-content">
+          <ul class="trending-list">
+            <!-- Контент будет динамически сгенерирован через JavaScript -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="new-release-section">
+      <div class="container">
+        <div class="release-head">
+          <h2 class="release-title">Новые релизы</h2>
+          <button class="release-btn">Показать всё →</button>
+        </div>
+        <div class="release-content">
+          <ul class="release-list">
+            <!-- Контент будет динамически сгенерирован через JavaScript -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="recommended-section">
+      <div class="container">
+        <div class="recommended-head">
+          <div class="recommended-info">
+            <h2 class="recommended-title">Recommended</h2>
+            <button class="tag active">Movies</button>
+            <button class="tag">Series</button>
+            <button class="tag">Animation</button>
+          </div>
+        </div>
+        <ul class="recommended-list">
+          <!-- Контент будет динамически сгенерирован через JavaScript -->
+        </ul>
+      </div>
+    </section>
+
+    <div style="display: none" #modal class="modal"></div>
+  </body>
+</html>
+</file>
+
+<file path="README.md">
+
+</file>
+
+<file path="src/css/base.css">
+/* 1. Box sizing — теперь паддинги не раздувают блоки */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Убираем стандартные отступы у всего */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* 3. Улучшаем плавность прокрутки */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 4. Настройки для body: min-height, правильный рендеринг текста */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5; /* Для читабельности */
+  -webkit-font-smoothing: antialiased; /* Сглаживание на Mac/iOS */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 5. Убираем точки у списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 6. Сбрасываем ссылки */
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block; /* Удобнее для трансформаций */
+}
+
+/* 7. Делаем картинки послушными */
+img,
+picture,
+svg,
+video,
+canvas {
+  max-width: 100%;
+  display: block; /* Убирает лишний зазор снизу */
+  height: auto;
+}
+
+/* 8. Наследуем шрифты для элементов форм */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  background: none;
+  color: inherit;
+  outline: none;
+}
+
+/* 9. Убираем синее выделение при клике на мобилках */
+button,
+a {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 10. Делаем таблицы вменяемыми */
+table {
+  border-collapse: collapse;
+}
+
+/* 11. Для доступности: скрываем элементы, но оставляем для скринридеров */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+</file>
+
+<file path="src/css/components/header.css">
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff6347;
+    transition: width 0.3s ease;
+  }
+
+  &:hover {
+    color: #fff;
+    transform: translateY(-1px);
+
+    &::after {
+      width: 100%;
+    }
+  }
+
+  &:active {
+    transform: translateY(0);
+    color: #ff6347;
+  }
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  height: 42px;
+  transition: max-width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus-within {
+    max-width: 416px;
+  }
+}
+
+.search-input {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+
+  font-size: 14px;
+  color: #fff;
+  padding: 0 45px 0 16px;
+  transition: all 0.3s ease;
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  &:focus {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #ff6347;
+    box-shadow: 0 0 0 4px rgba(255, 99, 71, 0.15);
+  }
+}
+
+.search-button {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  padding: 4px;
+  opacity: 0.6;
+  transition: all 0.2s ease;
+  color: #fff;
+
+  &:hover {
+    opacity: 1;
+    color: #ff6347;
+    transform: translateY(-50%) scale(1.1);
+  }
+}
+</file>
+
+<file path="src/css/components/hero.css">
+.hero-section {
+  height: 100vh;
+  max-height: 100%;
+
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.4) 40%,
+      rgba(0, 0, 0, 0.4) 60%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../assets/images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  display: block;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  padding-bottom: 72px;
+}
+
+.hero-content {
+  height: calc(100vh - 200px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+
+  margin-bottom: 8px;
+}
+
+.hero-info-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  margin-bottom: 24px;
+}
+
+.hero-tags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-tag-text {
+  border-radius: 20px;
+  padding: 10px;
+  background: #fff;
+
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+}
+
+.hero-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-rating,
+.hero-year,
+.hero-time {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-description {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  max-width: 626px;
+}
+</file>
+
+<file path="src/css/components/modal.css">
+.modal {
+  position: fixed;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: #000;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  z-index: 1050;
+  opacity: 1;
+  padding: 20px;
+
+  -webkit-transition: opacity 200ms ease-in;
+  -moz-transition: opacity 200ms ease-in;
+
+  max-width: 1200px;
+  max-height: 576px;
+
+  transition: opacity 200ms ease-in;
+}
+
+.modal-cover {
+  border-radius: 10px;
+  max-width: 352px;
+  max-height: 526px;
+}
+
+.modal-head {
+  width: 780px;
+  max-width: 765px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 64px;
+}
+
+.modal-name {
+  font-weight: 600;
+  font-size: 34px;
+  color: #fff;
+}
+
+.modal-close {
+  padding: 3px 8px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  transition: 0.2s ease-in;
+
+  &:hover {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    transform: scale(0.99);
+  }
+}
+
+.modal-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-film-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-bottom: 24px;
+}
+
+.modal-film-tags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.film-tag {
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+}
+
+.modal-film-data {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.film-year,
+.film-time,
+.film-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.modal-film-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+
+  margin-bottom: 44px;
+}
+
+.film-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.film-info-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+</file>
+
+<file path="src/css/components/new-release.css">
+.new-release-section {
+  margin-bottom: 100px;
+}
+
+.release-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 24px;
+}
+
+.release-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.release-btn {
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  opacity: 0.5;
+  transition: transform 0.2s ease-in;
+
+  &:hover {
+    transform: scale(0.9);
+  }
+  &:active {
+    opacity: 1;
+  }
+}
+
+.release-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px 0;
+  justify-content: space-between;
+}
+
+.release-item {
+  max-width: 256px;
+  max-height: 392px;
+
+  cursor: pointer;
+  transition: 0.2s ease-in;
+
+  &:hover {
+    transform: scale(0.98);
+  }
+}
+
+.release-item-cover {
+  border-radius: 10px;
+  min-width: 256px;
+  min-height: 344px;
+
+  margin-bottom: 16px;
+}
+
+.release-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.release-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.release-item-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.release-info-isHD {
+  border-radius: 5px;
+  padding: 4px;
+  background: #f00;
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.release-info-time {
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  border: 1px solid #f00;
+  border-radius: 5px;
+  padding: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+</file>
+
+<file path="src/css/components/recently-updated.css">
+.recently-updated-section {
+  padding: 72px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.recently-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+
+  margin-bottom: 24px;
+}
+
+.recently-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+}
+
+.recently-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  max-width: 218px;
+
+  gap: 24px;
+  transition: 0.2s ease-in;
+
+  &:hover {
+    transform: scale(0.9);
+  }
+}
+
+.recently-item-image {
+  border-radius: 5px;
+  max-width: 64px;
+  height: 103px;
+}
+
+.recently-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.recently-item-name,
+.recently-item-tag,
+.recently-item-data {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.recently-item-name {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+</file>
+
+<file path="src/css/components/recommended.css">
+.recommended-section {
+  padding-bottom: 72px;
+}
+
+.recommended-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 24px;
+}
+
+.recommended-info {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.recommended-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.tag {
+  border: 2px solid #f00;
+  border-radius: 15px;
+  padding: 10px;
+  opacity: 0.6;
+
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+
+  transition: 0.2s ease-in;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+.tag.active {
+  border-radius: 15px;
+  padding: 10px;
+  background: #f00;
+
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  opacity: 1;
+
+  &:hover {
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.448);
+  }
+}
+
+.recommended-btn {
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  opacity: 0.5;
+  transition: transform 0.2s ease-in;
+
+  &:hover {
+    transform: scale(0.9);
+  }
+  &:active {
+    opacity: 1;
+  }
+}
+
+.recommended-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px 0;
+  justify-content: space-between;
+}
+
+.recommended-item {
+  max-width: 256px;
+  max-height: 392px;
+  cursor: pointer;
+
+  transition: 0.2s ease-in;
+
+  &:hover {
+    transform: scale(0.98);
+  }
+}
+
+.recommended-item-cover {
+  border-radius: 10px;
+  min-width: 256px;
+  min-height: 344px;
+
+  margin-bottom: 16px;
+}
+
+.recommended-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recommended-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.recommended-item-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.recommended-info-isHD {
+  border-radius: 5px;
+  padding: 4px;
+  background: #f00;
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.recommended-info-time {
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  border: 1px solid #f00;
+  border-radius: 5px;
+  padding: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+</file>
+
+<file path="src/css/components/trending.css">
+.trending-section {
+  padding-bottom: 72px;
+}
+
+.trending-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 24px;
+}
+
+.trending-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.trending-btn {
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  opacity: 0.5;
+  transition: transform 0.2s ease-in;
+
+  &:hover {
+    transform: scale(0.9);
+  }
+  &:active {
+    opacity: 1;
+  }
+}
+
+.trending-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px 0;
+  justify-content: space-between;
+}
+
+.trending-item {
+  max-width: 352px;
+  max-height: 340px;
+}
+
+.trending-cover {
+  padding: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  background-image: url("../../../assets/images/card-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-width: 352px;
+  min-height: 293px;
+
+  margin-bottom: 10px;
+}
+
+.trending-item-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: auto;
+}
+
+.trending-item-time,
+.trending-item-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.trending-play-btn {
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  margin-bottom: auto;
+  transition: 0.2s ease-in;
+
+  &:hover {
+    transform: scale(0.8);
+  }
+}
+
+.trending-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trending-name {
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.trending-tags {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+
+.trending-tag {
+  border-radius: 10px;
+  padding: 8px;
+  background: #f00;
+
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+</file>
+
+<file path="src/css/layout.css">
+/* Сетка, контейнеры, навигация */
+
+.container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+}
+
+.header-container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 24px !important;
+}
+
+.modal-container {
+  display: flex;
+  gap: 32px;
+}
+</file>
+
+<file path="src/js/api.js">
+import { CONFIG } from "./config.js";
+
+// Fetch запросы
+export class FetchApi {
+  #API_KEY = CONFIG.API_KEY;
+  baseUrlApi = "https://api.poiskkino.dev/";
+
+  async fetchFilms() {
+    try {
+      const response = await fetch(`${this.baseUrlApi}v1.5/movie?limit=20`, {
+        headers: {
+          "X-API-KEY": this.#API_KEY,
+        },
+      });
+
+      const data = await response.json();
+      return data.docs;
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  async fetchFilmsUpdated() {
+    try {
+      const response = await fetch(
+        `${this.baseUrlApi}v1.5/movie?year=2024-2026&limit=5`,
+        {
+          headers: {
+            "X-API-KEY": this.#API_KEY,
+          },
+        },
+      );
+
+      const data = await response.json();
+      return data.docs;
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  async fetchFilmsTrending(quantityTrendingList) {
+    try {
+      const response = await fetch(
+        `${this.baseUrlApi}v1.5/movie?rating.kp=7-10&rating.imdb=7-10&rating.tmdb=7-10&lists=top250&limit=${quantityTrendingList}`,
+        {
+          headers: {
+            "X-API-KEY": this.#API_KEY,
+          },
+        },
+      );
+
+      const data = await response.json();
+      console.log(data.docs);
+
+      return data.docs;
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  async fetchFilmsRelease(quantityReleaseList) {
+    try {
+      const response = await fetch(
+        `${this.baseUrlApi}v1.5/movie?type=movie&limit=${quantityReleaseList}`,
+        {
+          headers: {
+            "X-API-KEY": this.#API_KEY,
+          },
+        },
+      );
+
+      const data = await response.json();
+
+      return data.docs;
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  async fetchFilmsRecommended(category) {
+    try {
+      const response = await fetch(
+        `${this.baseUrlApi}v1.5/movie?type=${category}&limit=8`,
+        {
+          headers: {
+            "X-API-KEY": this.#API_KEY,
+          },
+        },
+      );
+
+      const data = await response.json();
+
+      return data.docs;
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  async fetchFilmsSearch(name) {
+    try {
+      const response = await fetch(
+        `${this.baseUrlApi}v1.4/movie/search?page=1&limit=1&query=${name}`,
+        {
+          headers: {
+            "X-API-KEY": this.#API_KEY,
+          },
+        },
+      );
+
+      const data = await response.json();
+      console.log(data.docs);
+
+      return data.docs;
+    } catch (error) {
+      console.error(error);
+    }
+  }
+}
+</file>
+
+<file path="src/js/app.js">
+// Инициализация приложения
+import { Header } from "./components/Header.js";
+import { Hero } from "./components/Hero.js";
+import { Modal } from "./components/Modal.js";
+import { MovieCard } from "./components/MovieCard.js";
+
+// Создаём экземпляры классов
+const header = new Header();
+const hero = new Hero();
+const movieCard = new MovieCard();
+const modal = new Modal();
+
+// Рендер элементов навигации в хедере
+const ulElementNav = document.querySelector(".nav-list");
+if (ulElementNav) {
+  header.renderNavigation(ulElementNav);
+}
+
+// Рендер контента (описания фильма) в главном блоке hero
+const divElementHeroContent = document.querySelector(".hero-content");
+if (divElementHeroContent) {
+  hero.dataFilm(divElementHeroContent);
+}
+
+// Рендер карточек в секции "Недавно обновлено"
+const ulElementRecently = document.querySelector(".recently-list");
+if (ulElementRecently) {
+  const movieCard = new MovieCard();
+  movieCard.recentlyUpdated(ulElementRecently);
+}
+
+// Рендер карточек в секции "В тренде" с логикой подгрузки
+const ulElementTrending = document.querySelector(".trending-list");
+if (ulElementTrending) {
+  // Изначально показываем 3 карточки
+  let quantityTrendingList = 3;
+  const trendingAllBtn = document.querySelector(".trending-btn");
+
+  // При клике увеличиваем количество до 6 и скрываем кнопку
+  trendingAllBtn.addEventListener("click", () => {
+    quantityTrendingList = 6;
+    movieCard.trending(ulElementTrending, quantityTrendingList);
+    trendingAllBtn.style.display = "none";
+  });
+
+  movieCard.trending(ulElementTrending, quantityTrendingList);
+}
+
+// Рендер карточек в секции "Новые релизы" с логикой подгрузки
+const ulElementRelease = document.querySelector(".release-list");
+if (ulElementRelease) {
+  const releaseAllBtn = document.querySelector(".release-btn");
+  // Изначально показываем 4 карточки
+  let quantityReleaseList = 4;
+
+  // При клике увеличиваем количество до 8 и скрываем кнопку
+  releaseAllBtn.addEventListener("click", () => {
+    quantityReleaseList = 8;
+    movieCard.release(ulElementRelease, quantityReleaseList);
+    releaseAllBtn.style.display = "none";
+  });
+
+  movieCard.release(ulElementRelease, quantityReleaseList);
+}
+
+// Рендер карточек в секции "Рекомендовано" с фильтрацией по категориям
+const ulElementRecommended = document.querySelector(".recommended-list");
+if (ulElementRecommended) {
+  const btnCategory = document.querySelectorAll(".tag");
+
+  // Массив доступных категорий
+  const arrayCategory = ["movie", "tv-series", "anime"];
+  let category = "movie";
+
+  // Навешиваем обработчики на кнопки фильтров
+  btnCategory.forEach((button, index) => {
+    button.value = arrayCategory[index];
+
+    button.addEventListener("click", (event) => {
+      // Убираем активный класс со всех кнопок
+      btnCategory.forEach((el) => el.classList.remove("active"));
+      const btnValue = event.target.value;
+
+      // Обновляем контент по выбранной категории
+      category = btnValue;
+      movieCard.recommended(ulElementRecommended, category);
+
+      // Добавляем активный класс на нажатую кнопку
+      event.target.classList.add("active");
+    });
+  });
+
+  // Первоначальный рендер рекомендованных фильмов
+  movieCard.recommended(ulElementRecommended, category);
+}
+
+// Поиск фильма через инпут
+const searchInput = document.querySelector(".search-input");
+
+if (searchInput) {
+  const btnSearch = document.querySelector(".search-button");
+  const modalContainer = document.querySelector(".modal");
+
+  // При клике на кнопку поиска открываем модалку с результатами
+  btnSearch.addEventListener("click", () => {
+    const nameFilm = searchInput.value;
+    console.log(nameFilm);
+    modalContainer.style.display = "block";
+    modal.searchFilm(modalContainer, nameFilm);
+  });
+}
+</file>
+
+<file path="src/js/components/Header.js">
+import { navigationData } from "../../utils/constants.js";
+
+export class Header {
+  navigationData = navigationData;
+
+  renderNavigation(ulElement) {
+    const HTML = this.navigationData
+      .map(
+        (item) =>
+          `<li class="nav-item">
+               <a href="${item.link}" class="nav-link">${item.title}</a>
+           </li>`,
+      )
+      .join("");
+
+    ulElement.innerHTML = HTML;
+  }
+}
+</file>
+
+<file path="src/js/components/Hero.js">
+import { FetchApi } from "../api.js";
+
+const fetch = new FetchApi();
+
+export class Hero {
+  dataFilm(ulElement) {
+    const fetchData = fetch.fetchFilms();
+    if (!fetchData) return;
+
+    fetchData
+      .then((data) => {
+        const randomPage = Math.floor(Math.random() * data.length);
+        const filmData = data[randomPage];
+        const HTML = `
+          <h1 class="hero-title">${filmData.names[0] ? filmData.names[0].name : "Неизвестно"}</h1>
+          <div class="hero-info-wrapper">
+            <div class="hero-tags">
+              <div class="hero-tag-text">${filmData.genres[0] ? filmData.genres[0].name : "Неизвестно"}</div>
+              <div class="hero-tag-text">${filmData.genres[1] ? filmData.genres[1].name : "Неизвестно"}</div>
+              <div class="hero-tag-text">${filmData.genres[2] ? filmData.genres[2].name : "Неизвестно"}</div>
+            </div>
+            <div class="hero-info">
+              <div class="hero-year">
+                <img src="./assets/svg/calendar.svg" alt="calendar" />
+                <span class="year">${filmData.year ? filmData.year : "0000"}</span>
+              </div>
+              <div class="hero-time">
+                <img src="./assets/svg/time.svg" alt="time" />
+                <span class="time">${filmData.movieLength ? filmData.movieLength + "min" : "Неизвестно"}</span>
+              </div>
+              <div class="hero-rating">
+                <img src="./assets/svg/star.svg" alt="star" />
+                <span class="rating">${filmData.rating ? filmData.rating.imdb : "0.0"}</span>
+              </div>
+            </div>
+          </div>
+          <p class="hero-description">${filmData.description ? filmData.description : "Неизвестно"}</p>
+        `;
+        ulElement.innerHTML = HTML;
+      })
+      .catch((error) => console.error(error));
+  }
+}
+</file>
+
+<file path="src/js/components/Modal.js">
+import { FetchApi } from "../api.js";
+
+const fetch = new FetchApi();
+
+export class Modal {
+  searchFilm(modalElement, nameFilm) {
+    console.log(modalElement);
+
+    const fetchFilmSearch = fetch.fetchFilmsSearch(nameFilm);
+    if (!fetchFilmSearch) return;
+    fetchFilmSearch
+      .then((data) => {
+        const HTML = data
+          .map(
+            (item) => `
+    <div class="modal-container">
+        <img class="modal-cover" src="${item.backdrop ? item.backdrop.previewUrl : "https://www.freeiconspng.com/uploads/no-image-icon-10.png"}" alt="${item.name ? item.name : "Неизвестно"}" />
+        <div class="modal-content">
+          <div class="modal-head">
+            <h2 class="modal-name">${item.name ? item.name : "Неизвестно"}</h2>
+            <button class="modal-close">✕</button>
+          </div>
+          <div class="modal-info">
+            <div class="modal-film-info">
+              <div class="modal-film-tags">
+                <div class="film-tag">${item.genres[0] ? item.genres[0].name : "Неизвестно"}</div>
+                <div class="film-tag">${item.genres[1] ? item.genres[1].name : "Неизвестно"}</div>
+              </div>
+              <div class="modal-film-data">
+                <div class="film-year">
+                  <img src="./assets/svg/calendar.svg" alt="calendar" />
+                  ${item.year ? item.year : "Неизвестно"}
+                </div>
+                <div class="film-time">
+                  <img src="./assets/svg/time.svg" alt="calendar" />
+                  ${item.movieLength ? item.movieLength + "min" : "0:00min"}
+                </div>
+                <div class="film-rating">
+                  <img src="./assets/svg/star.svg" alt="calendar" />
+                  ${item.rating ? item.rating.kp : item.rating.imdb ? item.rating.tmdb : "0"}
+                </div>
+              </div>
+            </div>
+            <p class="modal-film-description">${item.description ? item.description : "Неизвестно"}</p>
+          </div>
+        </div>
+    </div>
+        `,
+          )
+          .join("");
+        modalElement.innerHTML = HTML;
+
+        const modalCloseBtn = modalElement.querySelector(".modal-close");
+        if (modalCloseBtn) {
+          modalCloseBtn.addEventListener("click", () => {
+            modalElement.style.display = "none";
+          });
+        }
+      })
+      .catch((error) => console.error(error));
+  }
+}
+</file>
+
+<file path="src/js/components/MovieCard.js">
+import { FetchApi } from "../api.js";
+
+const fetch = new FetchApi();
+
+export class MovieCard {
+  recentlyUpdated(ulElement) {
+    const fetchFilmsUpdated = fetch.fetchFilmsUpdated();
+    if (!fetchFilmsUpdated) return;
+
+    fetchFilmsUpdated
+      .then((data) => {
+        const HTML = data
+          .map(
+            (item) => `
+      <li class="recently-item">
+          <img
+          class="recently-item-image"
+          src="${item.poster ? item.poster.previewUrl : "https://www.freeiconspng.com/uploads/no-image-icon-10.png"}"
+          alt="${item.name ? item.name : "Неизвестно"}"
+          />
+        <div class="recently-item-info">
+          <h3 class="recently-item-name">${item.name ? item.name : "Неизвестно"}</h3>
+          <span class="recently-item-tag">${item.type ? item.type : "Неизвестно"}</span>
+          <span class="recently-item-data">${item.year ? item.year : "Неизвестно"}</span>
+        </div>
+      </li>`,
+          )
+          .join("");
+        ulElement.innerHTML = HTML;
+      })
+      .catch((error) => console.error(error));
+  }
+
+  trending(ulElement, quantityTrendingList) {
+    const fetchFilmsTrending = fetch.fetchFilmsTrending(quantityTrendingList);
+    if (!fetchFilmsTrending) return;
+
+    fetchFilmsTrending
+      .then((data) => {
+        const HTML = data
+          .map(
+            (item) => `
+        <li class="trending-item">
+            <div style="background-image: url('${item.poster ? item.poster.url : "https://www.freeiconspng.com/uploads/no-image-icon-10.png"}')" class="trending-cover">
+                <div class="trending-item-head">
+                  <span class="trending-item-time"><img src="./assets/svg/time.svg" alt="time" />${item.movieLength ? item.movieLength + "min" : "0:00min"}</span>
+                  <span class="trending-item-rating"><img src="./assets/svg/star.svg" alt="star" />${item.rating ? item.rating.imdb : "0.0"}</span>
+                </div>
+                <button class="trending-play-btn">
+                   <img src="./assets/svg/play.svg" alt="play" />
+                </button>
+            </div>
+            <div class="trending-info">
+                <span class="trending-name">${item.name ? item.name : "Неизвестно"}</span>
+              <ul class="trending-tags">
+                <li class="trending-tag">${item.genres[0] ? item.genres[0].name : "Неизвестно"}</li>
+                <li class="trending-tag">${item.genres[1] ? item.genres[1].name : "Неизвестно"}</li>
+              </ul>
+            </div>  
+       </li>`,
+          )
+          .join("");
+        ulElement.innerHTML = HTML;
+      })
+      .catch((error) => console.error(error));
+  }
+
+  release(ulElement, quantityReleaseList) {
+    const fetchFilmsRelease = fetch.fetchFilmsRelease(quantityReleaseList);
+    if (!fetchFilmsRelease) return;
+    fetchFilmsRelease
+      .then((data) => {
+        const HTML = data
+          .map(
+            (item) => `
+          <li class="release-item">
+            <img src="${item.poster ? item.poster.url : "https://www.freeiconspng.com/uploads/no-image-icon-10.png"}" alt="${item.name ? item.name : "Неизвестно"}" class="release-item-cover"></img>
+            <div class="release-item-content">
+              <span class="release-item-name">${item.name ? item.name : "Неизвестно"}</span>
+              <ul class="release-item-info">
+                <li class="release-info-isHD">
+                  HD
+                </li>
+                <li class="release-info-time">
+                  <img src="./assets/svg/time.svg" alt="time">
+                  ${item.movieLength ? item.movieLength + "min" : "0:00min"}
+                </li>
+              </ul>
+            </div>
+          </li>
+      `,
+          )
+          .join("");
+        ulElement.innerHTML = HTML;
+      })
+      .catch((error) => console.error(error));
+  }
+
+  recommended(ulElement, category) {
+    const fetchFilmsRelease = fetch.fetchFilmsRecommended(category);
+    if (!fetchFilmsRelease) return;
+    fetchFilmsRelease
+      .then((data) => {
+        const HTML = data
+          .map(
+            (item) => `
+         <li class="recommended-item">
+            <img src="${item.poster ? item.poster.url : "https://www.freeiconspng.com/uploads/no-image-icon-10.png"}" alt="${item.name ? item.name : "Неизвестно"}" class="recommended-item-cover"></img>
+            <div class="recommended-item-content">
+              <span class="recommended-item-name">${item.name ? item.name : "Неизвестно"}</span>
+              <ul class="recommended-item-info">
+                <li class="recommended-info-isHD">
+                  HD
+                </li>
+                <li class="recommended-info-time">
+                  <img src="./assets/svg/time.svg" alt="time">
+                  ${item.movieLength ? item.movieLength + "min" : "0:00min"}
+                </li>
+              </ul>
+          </li>
+
+      `,
+          )
+          .join("");
+        ulElement.innerHTML = HTML;
+      })
+      .catch((error) => console.error(error));
+  }
+}
+</file>
+
+<file path="src/js/config.js">
+export const CONFIG = {
+  API_KEY: "9VM0ECG-M8G4HJW-M1M9J8A-SZT73FY",
+};
+</file>
+
+<file path="src/utils/constants.js">
+export const navigationData = [
+  { title: "Главная", link: "#home" },
+  { title: "Жанры", link: "#genre" },
+  { title: "Страны", link: "#country" },
+  { title: "Фильмы", link: "#movies" },
+  { title: "Сериалы", link: "#series" },
+  { title: "Мультфильмы", link: "#animation" },
+];
+</file>
+
+<file path="src/utils/helpers.js">
+// Форматирование даты, рейтинга, времени
+</file>
+
+<file path="style.css">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@import url("./src/css/base.css");
+@import url("./src/css/components/header.css");
+@import url("./src/css/components/hero.css");
+@import url("./src/css/components/recently-updated.css");
+@import url("./src/css/components/trending.css");
+@import url("./src/css/components/new-release.css");
+@import url("./src/css/components/recommended.css");
+@import url("./src/css/components/modal.css");
+@import url("./src/css/layout.css");
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  background: #000;
+  color: #fff;
+}
+</file>
+
+</files>
