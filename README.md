@@ -92,7 +92,7 @@ movie-website/
 ## Запуск
 
 ```bash
-git clone https://github.com/your-username/movie-website.git
+git clone https://github.com/medok-ui/Movie-Website.git
 cd movie-website
 ```
 
