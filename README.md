@@ -1,4 +1,4 @@
-овременный веб-сайт для просмотра информации о фильмах, сериалах и аниме с использованием API Kinopoisk.
+Современный веб-сайт для просмотра информации о фильмах, сериалах и аниме с использованием API Kinopoisk.
 
 ![Status](https://img.shields.io/badge/status-in%20development-yellow.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
@@ -19,7 +19,6 @@
 - Фильтровать контент по категориям (фильмы, сериалы, аниме)
 - Получать детальную информацию о каждом фильме
 
-## ✨ Основные возможности
 
 ### 🏠 Главная страница
 
@@ -91,7 +90,7 @@ movie-website/
 1. **Клонируй репозиторий:**
 
    ```bash
-   git clone https://github.com/your-username/movie-website.git
+   git clone https://github.com/medok-ui/Movie-Website.git
    cd movie-website
    ```
 
